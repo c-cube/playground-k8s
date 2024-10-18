@@ -1,0 +1,21 @@
+(lang dune 3.16)
+
+(name myecho)
+
+(generate_opam_files true)
+
+(authors "Simon ")
+
+(maintainers "Simon")
+
+(license MIT)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name myecho)
+ (synopsis "A short synopsis")
+ (description "A longer description")
+ (depends ocaml dune tiny_httpd))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
