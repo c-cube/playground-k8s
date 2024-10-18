@@ -59,7 +59,7 @@ spec:
     - #host: hello-world.example
       http:
         paths:
-          - path: /
+          - path: /myecho/
             pathType: Prefix
             backend:
               service:
